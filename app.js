@@ -1,6 +1,7 @@
 var express=require('express')
 const app=express();
 var prdrouter=require('./Routes/prdrouter')
+var emprouter=require('./Routes/emprouter')
 app.set("view engine","ejs");
 app.set("views" ,"./src/views")
 app.use("/prd",prdrouter)
